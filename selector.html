@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        
+        p{
+            color:red;
+        }
+        #maku, #luka{
+            color:rgb(14, 247, 1);
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .kala, .holud{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 900;
+        }
+       input[type=email]{
+        color: blue;
+       }
+       span{
+        color: cornflowerblue;
+       }
+    </style>
+</head>
+<body>
+    <h2>Explore mixed elements</h2>
+    <p>My first line in CSS</p>
+    <p class="kala bold">My second line in CSS</p>
+    <p>My third line in CSS</p>
+    <p id="maku">My fourth line in CSS</p>
+    <p>My fifth line in CSS</p>
+    <p class="kala">My sixth <span>in CSS</span></p>
+    <p>My seventh line in CSS</p>
+    <p class="bold">My eighth line in CSS</p>
+    <p class="holud">My ninth line in CSS</p>
+    <br>
+    <ol>
+        <li>class selector</li>
+        <li>id selector</li>
+        <li id="luka">element selector</li>
+        <li>grouping selector</li>
+    </ol>
+    
+--> atrribute selector form er jonno
+<br>
+    <form>
+        <input type="email">
+        <input type="password">
+    </form>
+</body>
+</html>

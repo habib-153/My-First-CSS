@@ -1,0 +1,48 @@
+
+
+.header{
+    color:lawngreen;
+    height: 300px;
+    background-image: url(../dev.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-position: center;
+}
+span.block{
+    display:inline-block;
+    border: 5px solid green;
+    /* margin: 10px; */
+    height: 100px;
+    width: 150px;
+    text-align: justify;
+}
+.an{display:inline-block;
+    border: 5px solid green;
+    height: 100px;
+    width: 240px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: overline;
+    /* text-shadow: 10px 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog{
+    margin: 25px;
+    border: 15px solid rgb(224, 116, 15);
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 15px 15px 10px rgba(209, 170, 12, 0.984);
+    background-color: antiquewhite;
+    display:inline-block;
+}
+.second{
+    /* display:none; */
+    /* content-visibility: hidden; */
+    /* visibility: hidden; */
+    /* motion: auto; */
+    /* visibility: collapse; */
+}
